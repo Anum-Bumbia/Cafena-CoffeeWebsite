@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafena-Contact Us</title>
+    <!-- <link rel="stylesheet" href="slick/slick-theme.css">
+    <link rel="stylesheet" href="slick/slick.css"> -->
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <a href="index.html"> <img src="images/logo.png" alt="logo"></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html"> Home</a></li>
+                    <li><a href="menu.html"> Menu</a></li>
+                    <li><a href="contactus.html"> Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section id="contact">
+            <div class="section-heading">
+                <img src="images/Line3.png" alt="">
+                <h2> Contact </h2>
+                <img src="images/Line3.png" alt="">
+            </div>
+            <div id="contact-details">
+                <div class="contact-content">
+                    <i class="fa-solid fa-phone fa-2xl"></i>
+                    <h3>Phone</h3>
+                    <p>0322-456-7894</p>
+                    <p>0322-456-7896</p>
+                </div>
+                <div class="contact-content">
+                    <i class="fa-solid fa-envelope fa-2xl"></i>
+                    <h3>Email</h3>
+                    <p>contact.cafena@cafena.com</p>
+                    <p>contact.cafena@gmail.com</p>
+                </div>
+                <div class="contact-content">
+                    <i class="fa-solid fa-location-dot fa-2xl"></i>
+                    <h3>Address</h3>
+                    <p>C32، E St, Block 4 Clifton, Karachi.</p>
+                    <p>Tipu Sultan Rd, PECHS,Karachi.</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact-form">
+            <div id="google-map-section">
+                <div id="google-map-img">
+
+                </div>
+                <div id="google-map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14486.216940673472!2d66.99901888715821!3d24.810713100000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33d7ed6bb3c85%3A0x53a07613e239bf68!2sCoffee%20Wagera%20Clifton!5e0!3m2!1sen!2s!4v1701518764587!5m2!1sen!2s"
+                        width="378"  style="border:0;" allowfullscreen="" 
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+            </div>
+            <div id="contact-form-details">
+                <h2>Online Reservation</h2>
+                <p>Booking request <span>0322-456-7894/0322-456-7896 </span>or fill out the online form</p>
+                <form id="table-book-form">
+
+                    <input type="text" id="username" name="username" placeholder="Your Name">
+                    <p class="error" id="usernameError"></p> 
+
+
+                    <input type="text" id="email" name="email" placeholder="Email">
+                    <p class="error" id="emailError"></p> 
+
+
+                    <input type="number" id="phone" name="phone" placeholder="Mob-Number">
+                    <p class="error" id="phoneError"></p> 
+
+                    <select>
+                        <option>2 persons </option>
+                        <option>3 persons</option>
+                        <option>4 persons</option>
+                        <option>6 persons </option>
+                    </select><br>
+                    <input type="date">
+                    <input type="time">
+                    <textarea placeholder="Message"></textarea>
+                    <button id="Book">Book A Table</button>
+                    <p id="message"></p>
+
+                </form>
+            </div>
+        </section>
+        <section id="faq">
+            <div class="section-heading">
+                <img src="images/Line3.png" alt="">
+                <h2> Frequently Asked Questions (Faq's)</h2>
+                <img src="images/Line3.png" alt="">
+            </div>
+            <div id="faq-container">
+
+                <div id="faq-accordion">
+                    <div class="accordion-item">
+                        <div class="question">
+                            <h1 class="title">What are Your Opening Hours?</h1>
+                            <div class="icon">+</div>
+                        </div>
+                        <p class="text">
+                            We are open from 8:00am till 1:00am everyday.
+                        </p>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="question">
+                            <h1 class="title">Do you offer Wi-Fi?</h1>
+                            <div class="icon">+</div>
+                        </div>
+                        <p class="text">
+                            Yes,&nbsp;we provide free Wi-Fi for our customers.
+                        </p>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="question">
+                            <h1 class="title">Is there outdoor sitting available?</h1>
+                            <div class="icon">+</div>
+                        </div>
+                        <p class="text">
+                            Yes,&nbsp;we have outdoor seating for customers who prefer to enjoy their coffee outdoors.
+                        </p>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="question">
+                            <h1 class="title">Do you have decaffeinated coffee?</h1>
+                            <div class="icon">+</div>
+                        </div>
+                        <p class="text">
+                            Certainly,&nbsp; we offer decaffeinated coffee for those who prefer it.
+                        </p>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="question">
+                            <h1 class="title">Are your coffee beans sourced sustainably?</h1>
+                            <div class="icon">+</div>
+                        </div>
+                        <p class="text">
+                            Yes,&nbsp; we are committed to sourcing our coffee beans responsibly and supporting
+                            sustainable practices.
+                        </p>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="question">
+                            <h1 class="title">Can i reserve a table for a group?</h1>
+                            <div class="icon">+</div>
+                        </div>
+                        <p class="text">
+                            Yes,&nbsp; we accept reservations for groups.Feel free to contact us make arrangements.
+                        </p>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="question">
+                            <h1 class="title">What payment methods do you accept?</h1>
+                            <div class="icon">+</div>
+                        </div>
+                        <p class="text">
+                            We accept cash,&nbsp;credit cards,&nbsp; and digital payment methods for your convenience.
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+    
+    </section>
+    <div>
+        <div class="endbanner">
+
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="footer-columns">
+            <img src="images/logo.png" alt="">
+            <p>Cafena pays attention to the ambiance and design, creating a space where patrons can unwind.
+                Rich flavors, on the other hand, involve offering a diverse and delightful range of tastes,
+                making the entire experience memorable.</p>
+            <div class="social-media-icons">
+
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f fa-xl"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram fa-xl"></i></a>
+                <a href="https://pk.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin fa-xl"></i></a>
+            </div>
+        </div>
+        <div class="footer-columns">
+            <h2>Links</h2>
+            <ul>
+                <li><a href="index.html"> Home</a></li>
+                <li><a href="menu.html"> Menu</a></li>
+                <li><a href="contactus.html"> Contact Us</a></li>
+            </ul>
+
+        </div>
+        <div class="footer-columns">
+            <h2>Subscribe Us</h2>
+            <form id="subscriptionForm">
+                <input type="text" id="email-input" placeholder="Enter Your Email">
+                <p id="subscribeError"></p> <br>
+                <button class="emailbtn">Subscribe</button>
+            </form>
+        </div>
+    </footer>
+
+
+
+         </div>
+   
+    <script src="icons/fontawesome.js"></script>
+    <script src="slick/slick.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
